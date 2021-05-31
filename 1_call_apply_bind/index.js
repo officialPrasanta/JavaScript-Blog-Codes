@@ -1,4 +1,4 @@
-function render() {
+function render(text) {
     const heading = ce('h1');
     const para = ce('p');
     node = document.createTextNode("call(), apply() and bind() method")
@@ -10,9 +10,8 @@ function render() {
     root.appendChild(para);
 }
 
-
-
 //helper function
 function ce(string) {
     return document.createElement(string);
 }
+
