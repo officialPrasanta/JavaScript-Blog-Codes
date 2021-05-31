@@ -1,4 +1,4 @@
-function render(text) {
+function render() {
     const heading = ce('h1');
     const para = ce('p');
     node = document.createTextNode("call(), apply() and bind() method")
