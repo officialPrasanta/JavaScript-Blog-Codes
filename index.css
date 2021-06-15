@@ -2,13 +2,8 @@
 :root {
   --clr-grey-1: hsl(210, 22%, 93%);
   --clr-grey-2: hsl(209, 61%, 16%);
-  --transition: all 0.3s linear;
   --spacing: 0.1rem;
-  --radius: 0.25rem;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
-  --max-width: 1170px;
-  --fixed-width: 450px;
+
 }
 
 
