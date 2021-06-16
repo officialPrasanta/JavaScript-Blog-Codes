@@ -15,3 +15,5 @@ function render() {
 function ce(string) {
     return document.createElement(string);
 }
+
+window.addEventListener('load', render);
