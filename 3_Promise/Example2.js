@@ -1,14 +1,15 @@
 // Example: 2
-function btnCreation() {
-    let container = document.getElementById('show');
-    const btn = document.createElement('button');
-    btn.innerHTML = "I/O Request";
-    btn.setAttribute('id', 'btn');
-    container.appendChild(btn);
-}
+let btnPromise = () => Promise((resolve, reject) => {
+    function btnCreation() {
+        let container = document.getElementById('show');
+        const btn = document.createElement('button');
+        btn.innerHTML = "I/O Operation";
+        btn.setAttribute('id', 'btn');
+        container.appendChild(btn);
+    }
 
-window.addEventListener('load', btnCreation);
-
+    window.addEventListener('load', btnCreation);
+})
 
 let btnPromise = new Promise((resolve, reject) => {
     let btn1 = document.querySelector('btn')
