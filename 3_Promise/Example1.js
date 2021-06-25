@@ -1,9 +1,9 @@
-function psudoFetch(a) {
+function pseudoFetch(a) {
     setTimeout(() => {
         a = "I Love Chess";
     }, 3000);
 }
 
 let a = "I Love Football";
-psudoFetch(a);
+pseudoFetch(a);
 console.log(a);
